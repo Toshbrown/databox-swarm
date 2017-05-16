@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/me-box/databox-container-manager-js#readme",
   "dependencies": {
+    "dockerode": "^2.4.3",
     "jsonfile": "^3.0.0",
     "node-forge": "^0.6.45",
     "request": "^2.81.0",
