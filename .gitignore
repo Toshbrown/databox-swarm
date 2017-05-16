@@ -70,3 +70,5 @@ databox-os-monitor-driver/
 databox-store-blob-mongo/
 
 databox-store-blob/
+
+databox-app-server/
