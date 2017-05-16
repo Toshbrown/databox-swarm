@@ -1,11 +1,21 @@
 
 # Uasge 
 
+Install and run :
+
     npm install 
     ./getCompnentSrc.sh
     ./startDatabox //Take a while first time as it builds all the needed images
 
-# why refactor 
+To see the driver working use: 
+
+    docker service logs databox-os-monitor-driver -f
+
+To stop databox use:
+
+    ./stopDatabox.sh
+
+# Why Refactor 
 
 move to docker swarm - better secrets management, ability (in future) to run databox across may devices, makes moving to linuxkit possible 
 
