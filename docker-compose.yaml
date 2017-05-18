@@ -21,6 +21,7 @@ services:
         networks:
             - databox-cm-arbiter-net
             - databox-cm-app-server-net
+            - databox-driver-net
         secrets:
             - DATABOX_ROOT_CA
             - CM_KEY
