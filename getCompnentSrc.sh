@@ -1,7 +1,7 @@
 
 
 if [ ! -d "databox-cm" ]; then
-    git clone -b fet/swarm git@github.com:me-box/databox.git databox-cm
+    git clone -b fet/swarm git@github.com:me-box/databox-cm.git databox-cm
 fi 
 
 if [ ! -d "databox-arbiter" ]; then
